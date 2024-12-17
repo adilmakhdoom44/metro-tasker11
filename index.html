@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Metro Tasker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"
+    />
+  </head>
+  <body>
+    <div id="loader">
+      <div></div>
+    </div>
+    <!-- Header -->
+    <section id="offer">
+      <div class="row p-0 m-0">
+        <div class="col-lg-6 d-flex col-sm-3" style="align-items: center">
+          <i class="fa-solid fa-location-dot" style="margin-left: 5%"></i>
+          <div class="px-2">Washington, DC</div>
+        </div>
+        <div
+          class="col-lg-6 col-sm-12 d-flex"
+          style="justify-content: flex-end; align-items: center"
+        >
+          <div class="px-4 hover-button" style="margin-right: 2%">
+            Live Chat
+          </div>
+          <div class="hover-button" style="margin-right: 5%">help Center</div>
+        </div>
+      </div>
+    </section>
+    <section id="nav" class="theme-background">
+      <div class="row m-0 p-0">
+        <nav class="container navbar navbar-expand-lg">
+          <div class="container">
+            <a href="index.html" class="navbar-brand col-lg-6 p-0 m-0"
+              ><img
+                src="/images/cropped-logo.png"
+                alt=""
+                height="40px
+                "
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span
+                class="fa-solid fa-bars-staggered"
+                style="color: white"
+              ></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item px-4">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown px-4">
+                  <a
+                    class="nav-link text-white"
+                    href="#"
+                    id="servicesDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                    <li><a class="dropdown-item" href="#tv-mounting">TV Mounting</a></li>
+                    <li><a class="dropdown-item" href="#general-repairs">General Repairs</a></li>
+                    <li><a class="dropdown-item" href="#furniture-assembly">Furniture Assembly</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item px-4">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="#about"
+                    >About us</a
+                  >
+                </li>
+                <li class="nav-item px-4">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="blogs.html"
+                    >Blogs</a
+                  >
+                </li>
+                <li class="nav-item px-4">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="/contact-us.html"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- Main Title page -->
+    <section
+      id="background-dia"
+      class="d-flex align-items-center"
+      style="min-height: 80vh"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 d-flex justify-content-center">
+            <h1 class="pt-3 text-left" style="font-size: 3rem">
+              At Metro Tasker We Specialize in Making Your Life Easier by
+              Providing Expert Services Like
+              <span id="text-rotator"></span>
+            </h1>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-12 text-center">
+            <div class="btn1 theme-background mx-2 my-3">
+              Download for IOS
+              <i class="fa-brands fa-apple ms-2" style="font-size: 30px"></i>
+            </div>
+            <div
+              class="btn1 theme-background mx-2"
+              data-bs-toggle="collapse"
+              data-bs-target="#expandForm"
+              aria-expanded="false"
+              aria-controls="expandForm"
+            >
+              Book Now
+              <i
+                class="fa-solid fa-circle-arrow-down ms-2"
+                style="font-size: 30px"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <!-- Collapsible Form -->
+        <div class="collapse mt-4" id="expandForm">
+          <div class="card card-body">
+            <h4 class="mb-4">Fill In the Details</h4>
+            <form>
+              <!-- Name Field -->
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <!-- Email Field -->
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <!-- Message Field -->
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Your message"
+                ></textarea>
+              </div>
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Experience session -->
+    <section id="experience" class="py-3">
+      <div class="container">
+        <div class="row">
+          <!-- Experience Section Left -->
+          <div
+            class="col-lg-6 d-flex justify-content-between align-items-center"
+          >
+            <div class="text-center">
+              <div class="text-black" style="font-size: 50px">15</div>
+              <div
+                class="px-3"
+                style="font-size: 0.8rem; color: rgb(130, 128, 128)"
+              >
+                YEARS OF EXPERIENCE
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="text-black" style="font-size: 50px">513</div>
+              <div
+                class="px-3"
+                style="font-size: 0.7rem; color: rgb(130, 128, 128)"
+              >
+                PROJECTS COMPLETED IN LAST DECADE
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience Section Right -->
+          <div
+            class="col-lg-6 d-flex justify-content-end align-items-center text-end"
+          >
+            <div>
+              <p style="font-size: 0.8rem; color: rgb(130, 128, 128)">
+                GET IN TOUCH
+              </p>
+              <a href="mailto:support@metrotasker.com" style="color: black"
+                >support@metrotasker.com</a
+              >
+            </div>
+            <div class="px-3">
+              <i
+                class="fa-regular fa-envelope fa-2x"
+                style="color: #374d5c"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gradient Left -->
+    <section id="gradient-bar">
+      <div class="line-container">
+        <div class="gradient-line my-5"></div>
+      </div>
+    </section>
+    <!-- Main Cards -->
+    <section id="cards">
+      <div class="container py-5">
+        <div class="row text-center">
+          <!-- Community Partners -->
+          <div class="col-md-3 mb-4">
+            <div
+              class="card border-0"
+              style="background-color: rgb(167, 175, 183); border-radius: 20px"
+            >
+              <img
+                src="https://cdn.prod.website-files.com/66594218f8189b8e04ffe685/670c7aef8a18a87894d256ab_App%20Mockups%20(1200%20x%202000%20px)%20(11)%20(1).png"
+                class="card-img-top img-fluid"
+                alt="Community Partners"
+              />
+              <div
+                class="card-body"
+                style="
+                  background-color: rgb(167, 175, 183);
+                  border-bottom-left-radius: 20px;
+                  border-bottom-right-radius: 20px;
+                "
+              >
+                <h5 class="card-title fw-bold">
+                  Community Partners<br />Across the DC Metro
+                </h5>
+                <a href="/partners" class="btn1 theme-background a"
+                  >See Partners</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- All Technicians -->
+          <div class="col-md-3 mb-4">
+            <div
+              class="card border-0"
+              style="background-color: rgb(167, 175, 183); border-radius: 20px"
+            >
+              <img
+                src="https://cdn.prod.website-files.com/66594218f8189b8e04ffe685/670c7aef8a18a87894d256ab_App%20Mockups%20(1200%20x%202000%20px)%20(11)%20(1).png"
+                class="card-img-top img-fluid"
+                alt="All Technicians"
+              />
+              <div
+                class="card-body"
+                style="
+                  background-color: rgb(167, 175, 183);
+                  border-bottom-left-radius: 20px;
+                  border-bottom-right-radius: 20px;
+                "
+              >
+                <h5 class="card-title fw-bold">
+                  All Technicians Are<br />Insured + Vetted
+                </h5>
+                <a href="/technician" class="btn1 theme-background a"
+                  >Our Requirements</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Browse Ideas -->
+          <div class="col-md-3 mb-4">
+            <div
+              class="card border-0"
+              style="background-color: rgb(167, 175, 183); border-radius: 20px"
+            >
+              <img
+                src="https://cdn.prod.website-files.com/66594218f8189b8e04ffe685/670c7d2bd0941f1580aa0aee_App%20Mockups%20(1200%20x%202000%20px)%20(13)%20(1).png"
+                class="card-img-top img-fluid"
+                alt="Browse Ideas"
+              />
+              <div
+                class="card-body"
+                style="
+                  background-color: rgb(167, 175, 183);
+                  border-bottom-left-radius: 20px;
+                  border-bottom-right-radius: 20px;
+                "
+              >
+                <h5 class="card-title fw-bold">
+                  Browse Ideas.<br />Spark Creativity.
+                </h5>
+                <a href="#" class="btn1 theme-background a">Get Inspired</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Get an Instant Price -->
+          <div class="col-md-3 mb-4">
+            <div
+              class="card border-0"
+              style="background-color: rgb(167, 175, 183); border-radius: 20px"
+            >
+              <img
+                src="https://cdn.prod.website-files.com/66594218f8189b8e04ffe685/670c7a3b9bf6bccf4282ce33_App%20Mockups%20(1200%20x%202000%20px)%20(10)%20(1).png"
+                class="card-img-top img-fluid"
+                alt="Get Instant Price"
+              />
+              <div
+                class="card-body"
+                style="
+                  background-color: rgb(167, 175, 183);
+                  border-bottom-left-radius: 20px;
+                  border-bottom-right-radius: 20px;
+                "
+              >
+                <h5 class="card-title fw-bold">
+                  Get an Instant Price<br />or Request an Offer
+                </h5>
+                <a href="/about" class="btn1 theme-background a">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gradient Right -->
+    <section id="right-gradient">
+      <div class="container-right my-5">
+        <div class="grd-line"></div>
+      </div>
+    </section>
+    <!-- Services Slider -->
+    <section id="Slider">
+      <h2 class="text-center">Our Most Popular Services</h2>
+      <div
+        id="myCarousel"
+        class="carousel slide mb-6 my-5"
+        data-bs-ride="carousel"
+      >
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-label="Slide 1"
+            aria-current="true"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <img
+              class="img-fluid crousel-img shadow-image"
+              src="images/c-img1.jpg"
+              alt="Slide 1"
+            />
+            <div class="container">
+              <div class="carousel-caption text-center text-black">
+                <h2 class="text-white">Full motion TV wall mount.</h2>
+                <p class="text-white">Starting From $299</p>
+                <p><a class="btn1 theme-background a" href="#">Order Now</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item text-center">
+            <img
+              class="img-fluid crousel-img shadow-image"
+              src="images/c-img2.jpg"
+              alt="Slide 2"
+            />
+            <div class="container">
+              <div class="carousel-caption text-center text-black">
+                <h2 class="text-white">TV Wall Mount</h2>
+                <p class="text-white">Starting From $80</p>
+                <p><a class="btn1 theme-background a" href="#">Order Now</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item text-center">
+            <img
+              class="img-fluid crousel-img shadow-image"
+              src="images/c-img3.jpg"
+              alt="Slide 3"
+            />
+            <div class="container">
+              <div class="carousel-caption text-center text-white">
+                <h2>Cable Management</h2>
+                <p class="text-white">Starting From $120</p>
+                <p><a class="btn1 theme-background a" href="#">Order Now</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon"
+            style="background-color: #374d5c"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon"
+            style="background-color: #374d5c"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Gradient Left -->
+    <section id="gradient-bar">
+      <div class="line-container">
+        <div class="gradient-line my-5"></div>
+      </div>
+    </section>
+    <!-- Hire a Professional -->
+    <section id="value-session">
+      <div class="row p-0 m-0 mb-5">
+        <div
+          class="col text-center effect1"
+          style="font-size: 20px; justify-content: center"
+        >
+          Here is What You Have to Do!
+        </div>
+        <div class="text-gra text-center mb-5" style="font-size: 3rem">
+          Hire a Professional and Save Hours of Your Valuable Time
+        </div>
+      </div>
+    </section>
+    <section id="values-session">
+      <div class="container slide-in">
+        <div class="row" style="min-height: 500px">
+          <div class="col-lg-4 col-md-12 col-sm-12 effect1">
+            <div
+              class="card theme-background"
+              style="
+                height: 20rem;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <div class="text-white text-center">
+                <i class="fa-solid fa-list-check fs-3 pb-2"></i>
+                <h6 class="p-2 text-black">Fill Out Details</h6>
+                <p class="p-0" style="color: rgb(247, 247, 247)">
+                  Fill out the Forum <br />
+                  Mention All of Your Specifications
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-12 col-sm-12 d-flex pt-3 effect1"
+            style="align-items: center"
+          >
+            <div
+              class="card text-center"
+              style="
+                height: 20rem;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <i class="fa-solid fa-calendar-days p-2 fs-3"></i>
+              <h6 class="p-2">Select Time & Date</h6>
+              <p class="p-0" style="color: rgb(130, 128, 128)">
+                Chose a Suitable Time and <br />
+                Date When You Want Us to be There For You
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-md-12 col-sm-12 d-flex pt-3 effect1"
+            style="align-items: flex-end"
+          >
+            <div
+              class="card text-center theme-background"
+              style="
+                height: 20rem;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              <i class="fa-solid fa-mobile-screen p-2 fs-3 text-white"></i>
+              <h6 class="p-2">Sit Back & Relax</h6>
+              <p class="p-0" style="color: rgb(247, 247, 247)">
+                Receive a Confirmation Call <br />Sit Back and Relax, Well
+                Handle it Now
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gradient Right -->
+    <section id="right-gradient">
+      <div class="container-right my-5">
+        <div class="grd-line"></div>
+      </div>
+    </section>
+  <!-- Lets Talk About Your Next Instalation -->
+    <section id="Project" class="moving-background">
+      <div class="container">
+        <div class="row align-items-center">
+          <div
+            class="col-lg-8 col-md-12 text-container text-center text-lg-start"
+          >
+            <p class="small-heading pt-5" style="color: #00c6ff">LET'S TALK</p>
+            <h1 class="main-heading" style="font-size: 3.5rem">
+              ABOUT YOUR <br />
+              <span class="bg-gra p-1">NEXT INSTALATION</span>
+            </h1>
+          </div>
+          <div
+            class="col-lg-4 col-md-12 d-flex justify-content-lg-start justify-content-center"
+          >
+            <div class="btn1 theme-background2">Get In Touch</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Cards Area -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Left Content -->
+          <div
+            class="col-lg-5 shadow mb-4 mb-lg-0 border mx-2 my-1"
+            style="border-radius: 20px"
+          >
+            <h5 class="mb-3 pt-3 text-center">
+              We prioritize your experience and<br />peace of mind.
+            </h5>
+            <p class="mb-4">
+              Your feedback matters. Our vetted experts deliver top-quality
+              service to make your home stress-free and beautiful.
+            </p>
+            <a href="/about" class="btn btn-dark mb-4">How it works</a>
+            <div class="text-center">
+              <img
+                src="https://cdn.prod.website-files.com/66594218f8189b8e04ffe685/66f1f18af72383fafd98adca_Subheading%20(7)%20(1).png"
+                alt="Service illustration"
+                class="img-fluid rounded"
+              />
+            </div>
+          </div>
+
+          <!-- Right Content -->
+          <div
+            class="col-lg-5 shadow border mx-2 my-1"
+            style="border-radius: 20px"
+          >
+            <h5 class="mb-3 pt-3 text-center">
+              Trustworthy, reliable, and<br />experienced service providers.
+            </h5>
+            <p class="mb-4">
+              Our professionals are carefully selected for their skill and
+              dedication, giving you confidence in every service.
+            </p>
+            <a href="/technician" class="btn btn-primary mb-4"
+              >Our Onboarding Process</a
+            >
+            <div class="text-center">
+              <img
+                src="https://cdn.prod.website-files.com/66594218f8189b8e04ffe685/66f1e35dc25ba6567e5ff588_Subheading.png"
+                alt="Contractor profile Mockup"
+                class="img-fluid rounded"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="card-body" class="container py-5">
+      <div class="row g-4">
+        <!-- Card 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card text-center border-0 shadow">
+            <h2 class="card-title mt-4">
+              Personalized Support,<br />Every Day
+            </h2>
+            <p class="card-text px-3">
+              We’re committed to providing prompt answers to your questions and
+              ensuring a smooth, hassle-free experience every single day of the
+              week.
+            </p>
+            <div class="card-image my-3">
+              <img
+                src="https://cdn.prod.website-files.com/66594218f8189b8e04ffe685/66f1f236e13466f75c61e746_Subheading%20(9)%20(1).png"
+                class="img-fluid"
+                alt="Real Support"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card text-center border-0 shadow">
+            <h2 class="card-title mt-4">
+              Trusted Installation with<br />Peace of Mind
+            </h2>
+            <p class="card-text px-3">
+              Our services come with a 30-day satisfaction assurance, giving you
+              confidence and reliability for all your installation needs.
+            </p>
+            <div class="card-image my-3">
+              <img
+                src="https://cdn.prod.website-files.com/66594218f8189b8e04ffe685/66f1e69fb3250c58321ef165_Subheading%20(2)%20(1).png"
+                class="img-fluid"
+                alt="SafeStay Assurance"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="card text-center border-0 shadow">
+            <h2 class="card-title mt-4">Clear & Honest<br />Pricing</h2>
+            <p class="card-text px-3">
+              With us, you’ll know exactly what you’re paying upfront. No hidden
+              fees, no surprises—just transparent pricing for every service.
+            </p>
+            <div class="card-image my-3">
+              <img
+                src="https://cdn.prod.website-files.com/66594218f8189b8e04ffe685/66f1f55e84072521bdbd88ae_Subheading%20(11)%20(1).png"
+                class="img-fluid"
+                alt="Transparent Pricing"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Buttons -->
+    <section id="buy-buttons">
+      <div class="container">
+        <div class="col-lg-12 text-center">
+          <div class="btn1 theme-background mx-2 my-3">
+            Download for IOS
+            <i
+              class="fa-brands fa-apple"
+              style="padding-left: 10px; padding-bottom: 5px; font-size: 30px"
+            ></i>
+          </div>
+          <div
+            class="btn1 theme-background mx-2"
+            data-bs-toggle="collapse"
+            data-bs-target="#expandForm"
+            aria-expanded="false"
+            aria-controls="expandForm"
+          >
+            Book Now
+            <i
+              class="fa-solid fa-circle-arrow-down"
+              style="padding-left: 10px; padding-bottom: 5px; font-size: 30px"
+            ></i>
+          </div>
+        </div>
+
+        <!-- Collapsible Form -->
+        <div class="collapse mt-4" id="expandForm">
+          <div class="card card-body">
+            <h4 class="mb-4">Fill In the Details</h4>
+            <form>
+              <!-- Name Field -->
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <!-- Email Field -->
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <!-- Message Field -->
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="4"
+                  placeholder="Your message"
+                ></textarea>
+              </div>
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gradient Left -->
+    <section id="gradient-bar">
+      <div class="line-container">
+        <div class="gradient-line my-5"></div>
+      </div>
+    </section>
+    <section class="theme-background">
+      <div class="container">
+          <div class="row text-center mb-4">
+              <div class="col-12">
+                  <h2 class="fw-bold mt-5" style="color: rgb(6, 255, 255);">Our Potential</h2>
+              </div>
+          </div>
+
+          <!-- First Row -->
+          <div class="row">
+              <div class="col-md-4 milestone">
+                  <h5 class="count-up" data-target="3">0</h5>
+                  <div class="subject">Years of Work</div>
+              </div>
+              <div class="col-md-4 milestone">
+                  <h5 class="count-up" data-target="21586">0</h5>
+                  <div class="subject">Services Provided</div>
+              </div>
+              <div class="col-md-4 milestone">
+                  <h5 class="count-up" data-target="14958">0</h5>
+                  <div class="subject">Satisfied Customers</div>
+              </div>
+          </div>
+
+          <!-- Second Row -->
+          <div class="row">
+              <div class="col-md-4 milestone">
+                  <h5 class="count-up" data-target="23">0</h5>
+                  <div class="subject">Employees</div>
+              </div>
+              <div class="col-md-4 milestone">
+                  <h5 class="count-up" data-target="13">0</h5>
+                  <div class="subject">Cities</div>
+              </div>
+              <div class="col-md-4 milestone">
+                  <h5 class="count-up" data-target="15354">0</h5>
+                  <div class="subject them  ">Loyal Customers</div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- Testimonials -->
+    <section id="testimonial">
+      <h2 class="text-center m-5">Outstanding service is what we deliver.</h2>
+      <div class="container carousel-container">
+        <div class="slick-slider">
+          <div
+            class="testimonial-slide mx-3 my-3 p-3 shadow theme-background text-white"
+            style="
+              height: 35rem;
+              align-items: center;
+              border: 1px solid silver;
+              border-radius: 20px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: center;
+            "
+          >
+            <img
+              src="./images/white.png"
+              class="profile-img"
+              style="height: 5rem; border-radius: 50%; margin-bottom: 1rem"
+              alt=""
+            />
+            <div class="p-2" style="font-weight: bold">Petros</div>
+            <div class="p-3">
+              "I cannot recommend Metro Tasker enough! Their professionalism and
+              attention to detail are unmatched. From mounting my TV to handling
+              other installations around my home, the team made the entire
+              process seamless and stress-free. They arrived on time, worked
+              efficiently, and even cleaned up afterward. Metro Tasker has
+              become my go-to solution for all home improvement tasks.
+              Exceptional service, every single time!"
+            </div>
+          </div>
+
+          <div
+            class="testimonial-slide mx-3 my-3 p-3 shadow theme-background text-white"
+            style="
+              height: 35rem;
+              align-items: center;
+              border: 1px solid silver;
+              border-radius: 20px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: center;
+            "
+          >
+            <img
+              src="./images/white.png"
+              class="profile-img"
+              style="height: 5rem; border-radius: 50%; margin-bottom: 1rem"
+              alt=""
+            />
+            <div class="p-2" style="font-weight: bold">Petros</div>
+            <div class="p-3">
+              "I cannot recommend Metro Tasker enough! Their professionalism and
+              attention to detail are unmatched. From mounting my TV to handling
+              other installations around my home, the team made the entire
+              process seamless and stress-free. They arrived on time, worked
+              efficiently, and even cleaned up afterward. Metro Tasker has
+              become my go-to solution for all home improvement tasks.
+              Exceptional service, every single time!"
+            </div>
+          </div>
+
+          <div
+            class="testimonial-slide mx-3 my-3 p-3 shadow theme-background text-white"
+            style="
+              height: 35rem;
+              align-items: center;
+              border: 1px solid silver;
+              border-radius: 20px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: center;
+            "
+          >
+            <img
+              src="./images/white.png"
+              class="profile-img"
+              style="height: 5rem; border-radius: 50%; margin-bottom: 1rem"
+              alt=""
+            />
+            <div class="p-2" style="font-weight: bold">Petros</div>
+            <div class="p-3">
+              "I cannot recommend Metro Tasker enough! Their professionalism and
+              attention to detail are unmatched. From mounting my TV to handling
+              other installations around my home, the team made the entire
+              process seamless and stress-free. They arrived on time, worked
+              efficiently, and even cleaned up afterward. Metro Tasker has
+              become my go-to solution for all home improvement tasks.
+              Exceptional service, every single time!"
+            </div>
+          </div>
+
+          <div
+            class="testimonial-slide mx-3 my-3 p-3 shadow theme-background text-white"
+            style="
+              height: 35rem;
+              align-items: center;
+              border: 1px solid silver;
+              border-radius: 20px;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: center;
+            "
+          >
+            <img
+              src="./images/white.png"
+              class="profile-img"
+              style="height: 5rem; border-radius: 50%; margin-bottom: 1rem"
+              alt=""
+            />
+            <div class="p-2" style="font-weight: bold">Petros</div>
+            <div class="p-3">
+              "I cannot recommend Metro Tasker enough! Their professionalism and
+              attention to detail are unmatched. From mounting my TV to handling
+              other installations around my home, the team made the entire
+              process seamless and stress-free. They arrived on time, worked
+              efficiently, and even cleaned up afterward. Metro Tasker has
+              become my go-to solution for all home improvement tasks.
+              Exceptional service, every single time!"
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    
+    <!-- Footer -->
+    <footer id="footer" class="theme-background">
+      <div class="container justify-content-center text-white">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5">
+          <!-- Logo Section -->
+          <div class="col mb-3">
+            <div class="img-fluid pb-3">
+              <img src="/images/trans-logo.png" style="height: 10rem" alt="" />
+            </div>
+          </div>
+
+          <!-- Company Links -->
+          <div class="col mb-3">
+            <h5>Company</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Contact us</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Healthy Lifestyle Centers</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Privacy Policy</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Anti-Spam</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Support Links -->
+          <div class="col mb-3">
+            <h5>Support</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white">Members Only</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Statement of Average Gross Income</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-white"
+                  >Policies & Procedures</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Social Media Links -->
+          <div class="col mb-3">
+            <h5>Follow Us</h5>
+            <i class="fa-brands fa-facebook px-1" style="font-size: 30px"></i>
+            <i class="fa-brands fa-instagram px-1" style="font-size: 30px"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script></script>
+    <script src="script.js"></script>
+  </body>
+</html>

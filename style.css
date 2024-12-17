@@ -1,0 +1,291 @@
+.theme-background{
+    background: linear-gradient(to right, #3A6073, #2f4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+.theme-background2 {
+  background: linear-gradient(to right, #7fbcda, #5189ae); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ;
+}
+.text-background{
+    color: linear-gradient(to right, #3A6073, #2f4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+.hover-button {
+    background-color: #487594; /* Initial button color */
+    color: white; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    
+}
+  
+  .hover-button:hover {
+    background-color: #000000; /* Color when hovering */
+}
+  
+#background-dia{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to bottom left, rgb(255, 255, 255) 50% ,rgb(248, 248, 248) 50% );
+    font-family: 'Roboto', sans-serif;
+}
+  #text-rotator {
+    background: linear-gradient(to right, rgb(18, 194, 233), rgb(196, 113, 237), rgb(246, 79, 89));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px; /* Rounded edges */
+    cursor: pointer;
+    background-color: #008080; /* Initial background color */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .btn1:hover {
+    background-color: #20B2AA; /* Change background color on hover */
+    transform: scale(1.1); 
+  }
+  
+  
+ 
+  .line-container {
+    background-color: rgb(255, 255, 255);
+    width: 100%; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.gradient-line {
+    width: 65%;
+    height: 2px; 
+    background: linear-gradient(to right, #00c6ff, #3a50f3, #be0eff, #ff0099);
+    border-radius: 2px; 
+}
+
+
+.card:hover {
+    background-color: #f0f8ff; /* Light blue background on hover */
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+  }
+
+
+
+
+.container-right{ 
+    background: linear-gradient(to right, #00c6ff, #3a50f3, #be0eff, #ff0099);
+    border-radius: 2px;
+    width: 100%; 
+
+}
+
+.grd-line{
+    width: 35%;
+    height: 2px; 
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+.crousel-img{
+    width: 90%;
+    max-height: 80rem;
+}
+@media (max-width: 768px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none; /* Hides the buttons */
+    }
+  }
+  .shadow-image {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    border-radius: 30px;
+  }
+  .a{text-decoration: none;}
+
+  @keyframes gradient-move {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .moving-background {
+    background: linear-gradient(45deg, #4f7588, #2f4350,#2f4350); /* Teal shades */
+    background-size: 200% 200%; /* Enlarged gradient for movement */
+    animation: gradient-move 6s ease infinite; /* Smooth animation */
+    height: 60vh; /* Full viewport height */
+    width: 100%; /* Full width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Text color for contrast */
+    font-size: 24px;
+  }
+
+  .card-text {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .card-image img {
+    max-width: 80%;
+    border-radius: 10px; /* Rounded edges for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 576px) {
+    .card-title {
+      font-size: 1.25rem;
+    }
+    .card-text {
+      font-size: 0.9rem;
+    }
+  }
+
+
+
+
+
+  .glowing-logo {
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+  }
+
+
+
+  
+  /* Wave Section */
+  .wave-section {
+    position: relative;
+    height: 60vh;
+    background: linear-gradient(to right, #3A6073, #2f4350); /* Gradient background */
+    overflow: hidden;
+    color: white;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Wave Section */
+  .wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 0;
+    bottom: -1px;
+  }
+  
+.wave svg {
+    display: block;
+}
+  
+
+
+.section-bg {
+    background-color: #e8e8e8;
+    padding: 50px 0;
+}
+.milestone {
+    text-align: center;
+    padding: 20px;
+}
+.milestone h5 {
+    font-size: 62px;
+    line-height: 62px;
+    color: white;
+    margin: 0;
+}
+
+.milestone .subject {
+    font-size: 18px;
+    font-weight: bold;
+    color:#dadada;
+    margin-top: 10px;
+}
+
+
+
+
+#loader {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2f4350;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; 
+}
+
+
+#loader div {
+  width: 9vmax;
+  height: 9vmax;
+  border-right: 4px solid #ffffff;
+  border-radius: 100%;
+  animation: spinRight 800ms linear infinite;
+  position: relative;
+}
+
+
+#loader div:before, #loader div:after {
+  content: '';
+  width: 6vmax;
+  height: 6vmax;
+  display: block;
+  position: absolute;
+  top: calc(50% - 3vmax);
+  left: calc(50% - 3vmax);
+  border-left: 3px solid #ffffff;
+  border-radius: 100%;
+  animation: spinLeft 800ms linear infinite;
+}
+
+#loader div:after {
+  width: 4vmax;
+  height: 4vmax;
+  top: calc(50% - 2vmax);
+  left: calc(50% - 2vmax);
+  border: 0;
+  border-right: 2px solid #ffffff;
+  animation: none;
+}
+
+/* Keyframes for spinning */
+@keyframes spinLeft {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(720deg); }
+}
+
+@keyframes spinRight {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}
+
+
+body.loaded #loader {
+  display: none;
+}
