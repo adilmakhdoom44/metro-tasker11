@@ -177,7 +177,7 @@
   /* Wave Section */
   .wave-section {
     position: relative;
-    height: 60vh;
+    height: 50vh;
     background: linear-gradient(to right, #3A6073, #2f4350); /* Gradient background */
     overflow: hidden;
     color: white;
